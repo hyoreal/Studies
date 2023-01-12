@@ -55,8 +55,7 @@ querydsl {
 	querydslSourcesDir = querydslDir
 }
 
-sourceSets {
-	main.java.srcDir querydslDir
+sourceSets { // 자동으로 소스폴더에 import해줌줌	main.java.srcDir querydslDir
 }
 
 configurations {
