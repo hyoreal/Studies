@@ -1,5 +1,8 @@
 package chatting.hyojin.chat.handler;
 
+import chatting.hyojin.chat.dto.ChatMessage;
+import chatting.hyojin.chat.dto.ChatRoom;
+import chatting.hyojin.chat.service.ChatService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -7,9 +10,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
-import tworeal.Animalcenter.websocket.chat.dto.ChatMessage;
-import tworeal.Animalcenter.websocket.chat.dto.ChatRoom;
-import tworeal.Animalcenter.websocket.chat.service.ChatService;
 
 /**
  * WebSocketHandler v1

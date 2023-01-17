@@ -1,9 +1,9 @@
 package chatting.hyojin.chat.controller;
 
+import chatting.hyojin.chat.dto.ChatRoom;
+import chatting.hyojin.chat.service.ChatService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import tworeal.Animalcenter.websocket.chat.dto.ChatRoom;
-import tworeal.Animalcenter.websocket.chat.service.ChatService;
 
 import java.util.List;
 

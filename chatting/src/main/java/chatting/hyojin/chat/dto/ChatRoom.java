@@ -1,9 +1,9 @@
 package chatting.hyojin.chat.dto;
 
+import chatting.hyojin.chat.service.ChatService;
 import lombok.Builder;
 import lombok.Getter;
 import org.springframework.web.socket.WebSocketSession;
-import tworeal.Animalcenter.websocket.chat.service.ChatService;
 
 import java.util.HashSet;
 import java.util.Set;

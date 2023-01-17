@@ -1,11 +1,11 @@
 package chatting.hyojin.chat.config;
 
+import chatting.hyojin.chat.handler.WebSocketHandler;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
-import tworeal.Animalcenter.websocket.chat.handler.WebSocketHandler;
 
 /**
  * WebSocketConfig
